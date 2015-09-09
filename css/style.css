@@ -1,0 +1,405 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+
+html body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 600px;) {
+
+    .marquee{
+        color: white;
+        font-size: 1.5em;
+        font-family: "Pontano Sans", sans-serif;
+        background-color: #1F396D;
+    }
+
+    #header img {
+        text-align: center;
+        display: inline;
+        height: 500px;
+    }
+
+    .menu {
+        text-align: center;
+        display: inline;
+    }
+
+    .menu img {
+        width: 80px;
+    }
+
+    .menu li {
+        font-size: 1em;
+        color: #1F396D;
+        font-family: "Pontano Sans", sans-serif;
+        padding-left: 20px;
+        text-decoration: none;
+    }
+
+    #mission {
+        width: 80%;
+        margin: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    #mission .container {
+        width: 100%;
+        display: block;
+        padding: 20px;
+        margin: auto;
+    }
+
+    #mission h1 {
+        font-size: 2.5em;
+        font-family: "Pontano Sans", sans-serif;
+        color: #1F396D;
+    }
+
+    #mission p {
+        font-size: 1.4em;
+        font-family: "Pontano Sans", sans-serif;
+    }
+
+    #members {
+        width: 70%;
+        margin: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    #members h1 {
+        font-size: 2.5em;
+        font-family: "Pontano Sans", sans-serif;
+        color: #1F396D;
+    }
+
+    #members p {
+        font-size: 1.5em;
+        font-family: "Pontano Sans", sans-serif;
+        color: #1F396D;
+    }
+
+    #members .person {
+        padding-bottom: 50px;
+    }
+
+    #members .person img{
+        width: 250px;
+        display: inline-block;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    #members .person .text{
+        width: 50%;
+        display: inline-block;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    #footer {
+        display: block;
+        padding-bottom: 300px;
+        color: white;
+        font-family: "Pontano Sans", sans-serif;
+        background-color: #1F396D;
+    }
+
+    #footer p {
+        font-size: 1.0em;
+        font-family: "Pontano Sans", sans-serif;
+        color: white;
+    }
+
+    #footer .con-list {
+        display: block;
+    }
+
+    #connect {
+        display: inline-block;
+        width: 30%;
+        vertical-align: text-top;
+    }
+
+    #connect img {
+        height: 50px;
+        padding: 5px;
+    }
+
+    .foot-container {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    #contact {
+        width: 60%;
+        height: 270px;
+        display: inline-block;
+        vertical-align: text-top;
+        font-family: "Pontano Sans", sans-serif;
+    }
+
+    #contact .join-btn {
+        margin-top: 23px;
+    }
+
+    .social-media {
+        width: 80%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    #mc_embed_signup .mc-field-group {
+        padding: 25px;
+    }
+
+    #mc_embed_signup .mc-field-group label {
+
+    }
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      height: auto;
+      margin-bottom: 60px;
+    }
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      z-index: 10;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel .item {
+      height: auto;
+      background-color: #777;
+    }
+    .carousel-inner > .item > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: auto;
+    }
+
+    .car-container {
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .car-container img {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 601px) {
+
+    .btn {
+        visibility: hidden;
+    }
+
+    .dropdown-menu{
+        visibility: visible;
+    }
+    .marquee{
+        color: white;
+        font-size: 1.5em;
+        font-family: "Pontano Sans", sans-serif;
+        background-color: #1F396D;
+    }
+
+    #header {
+        width: 80%;
+        background-color: #FFFFFF;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 50px;
+        vertical-align: middle;
+    }
+
+    #header img {
+        display: inline;
+    }
+
+    .logo {
+        text-align: center;
+        display: inline;
+        height: 300px;
+    }
+
+    .menu {
+        text-align: center;
+        display: inline;
+    }
+
+    .menu img {
+        width: 80px;
+    }
+
+    .menu li {
+        font-size: 1em;
+        color: #1F396D;
+        font-family: "Pontano Sans", sans-serif;
+        padding-left: 20px;
+        text-decoration: none;
+    }
+
+    #mission {
+        width: 80%;
+        margin: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    #mission .container {
+        width: 100%;
+        display: block;
+        padding: 20px;
+        margin: auto;
+    }
+
+    #mission h1 {
+        font-size: 2.5em;
+        font-family: "Pontano Sans", sans-serif;
+        color: #1F396D;
+    }
+
+    #mission p {
+        font-size: 1.4em;
+        font-family: "Pontano Sans", sans-serif;
+    }
+
+    #members {
+        width: 70%;
+        margin: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    #members h1 {
+        font-size: 2.5em;
+        font-family: "Pontano Sans", sans-serif;
+        color: #1F396D;
+    }
+
+    #members p {
+        font-size: 1.5em;
+        font-family: "Pontano Sans", sans-serif;
+        color: #1F396D;
+    }
+
+    #members .person {
+        padding-bottom: 50px;
+    }
+
+    #members .person img{
+        width: 250px;
+        display: inline-block;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    #members .person .text{
+        width: 50%;
+        display: inline-block;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    #footer {
+        display: block;
+        padding-bottom: 300px;
+        color: white;
+        font-family: "Pontano Sans", sans-serif;
+        background-color: #1F396D;
+    }
+
+    #footer p {
+        font-size: 1.0em;
+        font-family: "Pontano Sans", sans-serif;
+        color: white;
+    }
+
+    #footer .con-list {
+        display: block;
+    }
+
+    #connect {
+        display: inline-block;
+        width: 30%;
+        vertical-align: text-top;
+    }
+
+    #connect img {
+        height: 50px;
+        padding: 5px;
+    }
+
+    .foot-container {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    #contact {
+        width: 60%;
+        height: 270px;
+        display: inline-block;
+        vertical-align: text-top;
+    }
+
+    #contact .join-btn {
+        margin-top: 23px;
+    }
+
+    .social-media {
+        width: 80%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      height: auto;
+      margin-bottom: 60px;
+    }
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      z-index: 10;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel .item {
+      height: auto;
+      background-color: #777;
+    }
+    .carousel-inner > .item > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: auto;
+    }
+
+    .car-container {
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .car-container img {
+        width: 100%;
+    }
+}

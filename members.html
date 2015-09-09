@@ -1,0 +1,161 @@
+<!--KUYD.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>KU Young Dems</title>
+        <link rel="icon" type="image/png" href="pics/logo.png">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="boostrap.js"></script>
+
+        <script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                  var target = $(this.hash);
+                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                      if (target.length) {
+                        $('html,body').animate({
+                          scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                      }
+                }
+            });
+        });
+        </script>
+
+        <div id="header">
+            <img class="logo" src = "pics/logo.png">
+            <div class="menu btn-group">
+                <img src="pics/menu1.png" class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <ul class="dropdown-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/kuyd/members.html">Members</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                    <!--<li role="separator" class="divider"></li>-->
+                </ul>
+            </div>
+        </div>
+
+    </head>
+    <body>
+        <div id="members">
+            <div class="person">
+                <img class="" src="people/brittany.jpg">
+                <div class="text">
+                    <h1>Brittany Bodenheimer</h1>
+                    <p>President</br>
+                        Political Science</br>
+                        Topeka, KS</br>
+                        </p>
+                </div>
+            </div>
+            <div class="person">
+                <img class="" src="people/courtney.jpg">
+                <div class="text">
+                    <h1>Courtney Wheeler</h1>
+                    <p>Vice President</br>
+                        History & Higher Education</br>
+                        Edwardsville, KS</br>
+                        </p>
+                </div>
+            </div>
+            <div class="person">
+                <img class="" src="people/courtney.jpg">
+                <div class="text">
+                    <h1>Sarah Elliot</h1>
+                    <p>Treasurer</br>
+                        Political Science</br>
+                        Topeka, KS</br>
+                        </p>
+                </div>
+            </div>
+            <div class="person">
+                <img class="" src="people/chad.jpg">
+                <div class="text">
+                    <h1>Chad Uhl</h1>
+                    <p>Secretary, Graphic Design Chair</br>
+                        Computer Science & Classical Antiquity</br>
+                        Bonner Springs, KS</br>
+                        </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="social-media">
+                <div id="contact">
+                    <h1>Newsletter Sign-Up</h1>
+                    <form role="form" action="index.php">
+                        <div class="form-group col-xs-4">
+                            <label for="name">Name: </label>
+                            <input type="name" class="form-control" id="name" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <label for="email">Email: </label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <div class="join-btn col-xs-3">
+                                <input id="submit" name="submit" type="submit" value="Join" class="btn btn-primary">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-3">
+                                <?php echo $result; ?>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="connect">
+                    <h1>Connect</h1>
+                    <a href="http://facebook.com/KUYoungDems/" target="_blank"><img src="pics/facebook.png"></a>
+                    <a href="http://twitter.com/KUYoungDems/" target="_blank"><img src="pics/twitter.png"></a>
+                    <a href="mailto:chad.jayhawk@gmail.com"><img src="pics/email.png"></a>
+                </div>
+            </div>
+
+
+
+            <div class="foot-container">
+
+                <div class="con-list col-sm-3">
+                    <a href="#mission"><p>Mission</p></a>
+                    <a href="members.html" target="_blank"><p>Members</p></a>
+                    <a href="#footer"><p>Contact</p></a>
+                    <a href="docs/KUYD Constitution.pdf" target="_blank"><p>Platform</p></a>
+                    <a href="#info"><p>Information</p></a>
+                </div>
+                <div class="con-list col-sm-3">
+                    <a href="http://ksdp.org/" target="_blank"><p>Kansas Democrats</p></a>
+                    <a href="http://democrats.org/" target="_blank"><p>Democratic Party</p></a>
+                    <a href="pages/legislators.html" target="_blank"><p>Our Legislators</p></a>
+                    <a href="pages/legislators.html" target="_blank"><p>Our Legislators</p></a>
+                    <a href="pages/legislators.html" target="_blank"><p>Our Legislators</p></a>
+                </div>
+                <div class="con-list col-sm-3">
+                    <a href="http://ksdp.org/" target="_blank"><p>Kansas Democrats</p></a>
+                    <a href="http://democrats.org/" target="_blank"><p>Democratic Party</p></a>
+                    <a href="pages/legislators.html" target="_blank"><p>Our Legislators</p></a>
+                    <a href="pages/legislators.html" target="_blank"><p>Our Legislators</p></a>
+                    <a href="pages/legislators.html" target="_blank"><p>Our Legislators</p></a>
+                </div>
+                <div class="con-list col-sm-3">
+                    <a href="http://ksdp.org/" target="_blank"><p>Kansas Democrats</p></a>
+                    <a href="http://democrats.org/" target="_blank"><p>Democratic Party</p></a>
+                    <a href="pages/legislators.html" target="_blank"><p>Our Legislators</p></a>
+                    <a href="pages/legislators.html" target="_blank"><p>Our Legislators</p></a>
+                    <a href="pages/legislators.html" target="_blank"><p>Our Legislators</p></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

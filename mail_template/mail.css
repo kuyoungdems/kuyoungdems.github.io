@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+
+html, body {
+    width: 600px;
+}
+
+a:link, a:visited, a:active {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.marquee{
+    color: white;
+    font-size: 1.5em;
+    font-family: "Pontano Sans", sans-serif;
+    background-color: #1F396D;
+}
+
+#header h3{
+    display: inline-flex;
+    vertical-align: text-bottom;
+    margin-left: 50px;
+    font-size: 4em;
+    font-family: "Pontano Sans", sans-serif;
+    color: #1F396D;
+}
+
+#header img{
+    text-align: center;
+    display: inline-flex;
+    height: 300px;
+}
+
+#menu {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#menu li{
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.5em;
+    color: #1F396D;
+    font-family: "Pontano Sans", sans-serif;
+    padding-left: 20px;
+}
+
+#updates, #events, #leg {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#updates, #events, #leg h1{
+    font-family: "Pontano Sans", sans-serif;
+    font-size: 2em;
+    color: #1F396D;
+}
+
+#updates, #events, #leg h2{
+    font-family: "Pontano Sans", sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#updates, #events, #leg p {
+    font-family: "Pontano Sans", sans-serif;
+    font-size: 1em;
+}
+
+.card {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #1F396D;
+}
+
+.card h2 {
+    font-family: "Pontano Sans", sans-serif;
+    font-size: 1.8em;
+    color: white;
+    text-decoration: none;
+}
+
+.card h3 {
+    font-family: "Pontano Sans", sans-serif;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}
+
+.card p{
+    font-family: "Pontano Sans", sans-serif;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    display: block;
+    padding-bottom: 200px;
+    color: white;
+    font-family: "Pontano Sans", sans-serif;
+    background-color: #1F396D;
+}
+
+.social-media {
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
