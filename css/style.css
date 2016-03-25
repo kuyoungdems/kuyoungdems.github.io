@@ -4,7 +4,7 @@ html body {
     margin: 0px;
     padding: 0px;
 }
-
+/*
 @media screen and (max-width: 600px;) {
 
     .marquee{
@@ -154,47 +154,7 @@ html body {
 
     #mc_embed_signup .mc-field-group label {
 
-    }
-
-
-    /* CUSTOMIZE THE CAROUSEL
-    -------------------------------------------------- */
-
-    /* Carousel base class */
-    .carousel {
-      height: auto;
-      margin-bottom: 60px;
-    }
-    /* Since positioning the image, we need to help out the caption */
-    .carousel-caption {
-      z-index: 10;
-    }
-
-    /* Declare heights because of positioning of img element */
-    .carousel .item {
-      height: auto;
-      background-color: #777;
-    }
-    .carousel-inner > .item > img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: auto;
-    }
-
-    .car-container {
-        color: white;
-        font-family: sans-serif;
-        text-align: center;
-    }
-
-    .car-container img {
-        width: 100%;
-    }
-}
-
-
+    }*/
 
 @media screen and (min-width: 601px) {
 
@@ -226,19 +186,25 @@ html body {
 
     .menu {
         text-align: center;
-        display: inline;
-    }
-
-    .menu img {
-        width: 80px;
+        width: 100%;
+        margin-top: 50px;
     }
 
     .menu li {
-        font-size: 1em;
+        padding-left: 50px;
+        padding-right: 50px;
+        display: inline-block;
+    }
+
+    .menu li a{
+        font-size: 2em;
         color: #1F396D;
         font-family: "Pontano Sans", sans-serif;
-        padding-left: 20px;
         text-decoration: none;
+    }
+
+    .menu li a:hover{
+        text-decoration: underline;
     }
 
     #mission {
@@ -259,6 +225,7 @@ html body {
         font-size: 2.5em;
         font-family: "Pontano Sans", sans-serif;
         color: #1F396D;
+        text-align: center;
     }
 
     #mission p {
@@ -267,16 +234,33 @@ html body {
     }
 
     #members {
-        width: 70%;
+        width: 100%;
+        margin: auto;
+        display: block;
+        background-color: #d3e0f2;
+    }
+
+    #members .container {
+        width: 80%;
         margin: auto;
         display: block;
         padding-bottom: 50px;
     }
 
-    #members h1 {
-        font-size: 2.5em;
+    #members > h1 {
+        font-size: 3em;
         font-family: "Pontano Sans", sans-serif;
         color: #1F396D;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+
+    #members h1 {
+        font-size: 2em;
+        font-family: "Pontano Sans", sans-serif;
+        color: #1F396D;
+        text-align: center;
     }
 
     #members p {
@@ -286,24 +270,27 @@ html body {
     }
 
     #members .person {
-        padding-bottom: 50px;
+        width: 25%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5%;
     }
 
     #members .person img{
-        width: 250px;
-        display: inline-block;
-        padding-left: 50px;
-        padding-bottom: 20px;
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 50%;
     }
 
     #members .person .text{
-        width: 50%;
-        display: inline-block;
-        padding-left: 50px;
-        padding-bottom: 20px;
+        width: 100%;
+        display: block;
+        text-align: center;
     }
 
     #footer {
+        width: 100%;
         display: block;
         padding-bottom: 300px;
         color: white;
@@ -321,38 +308,25 @@ html body {
         display: block;
     }
 
-    #connect {
-        display: inline-block;
-        width: 30%;
-        vertical-align: text-top;
-    }
-
     #connect img {
         height: 50px;
         padding: 5px;
     }
 
-    .foot-container {
-        width: 80%;
-        margin: auto;
-        display: block;
-    }
-
-    #contact {
-        width: 60%;
-        height: 270px;
+    #footer .container {
+        width: 30%;
+        padding: 50px;
         display: inline-block;
         vertical-align: text-top;
+        position: relative;
     }
 
-    #contact .join-btn {
-        margin-top: 23px;
+    #footer .container a {
+        font-size: 1.5em;
     }
 
-    .social-media {
-        width: 80%;
-        margin: auto;
-        padding-top: 50px;
+    #footer .button {
+        color: black;
     }
 
 
